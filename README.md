@@ -1,2 +1,2 @@
-# nlp_paper_notes
+# NLP Paper Notes
 Notes taken while reading NLP papers
