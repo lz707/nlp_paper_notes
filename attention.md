@@ -1,6 +1,6 @@
 # [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
 
-_August 2020_
+_May 2016_
 
 tl;dr: Use attention mechanism to solve long distance dependency. Foundation of self-attention
 
