@@ -1,0 +1,17 @@
+# [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf)
+
+Written in 2015
+
+tl;dr: Tested two attentional mechanism: a global approach which always attends to all source words and a local one that only looks at a subset of source words at a time.
+
+#### Overall impression
+The paper is one further step over [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473). It discussed two versions of attention and some alternative forms of attention formula.
+
+#### Key ideas
+- Summaries of the key ideas
+
+#### Technical details
+- Summary of technical details
+
+#### Notes
+- Questions and notes on how to improve/revise the current work  
