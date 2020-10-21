@@ -8,5 +8,5 @@ I have authored several white papers regarding the application of Deep Learning 
 - [The next-generation alpha model: seeding intelligence with the ground truth](./NLP_white_paper_part2.pdf)
 
 ## Paper notes - Transformer
-- NMT Attention: [Utilizing Natural Language Processing to Bolster Active Management](./A1_attention.md)
-  - a slightly differnt version: Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](./A1.1_attention2.md)
+- NMT Attention: [Neural Machine Translation by Jointly Learning to Align and Translate](nmt_attention.md) <kbd>ICLR 2015</kbd>
+- Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](local_attention.md) <kbd>EMNLP 2015</kbd>
