@@ -9,4 +9,4 @@ I have authored several white papers regarding the application of Deep Learning 
 
 ## Paper notes - Transformer
 - NMT Attention: [Utilizing Natural Language Processing to Bolster Active Management](./A1_attention.md)
-  - a slightly differnt version: local attention: [Effective Approaches to Attention-based Neural Machine Translation](./A1.1_attention2.md)
+  - a slightly differnt version: Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](./A1.1_attention2.md)
