@@ -9,4 +9,4 @@ I have authored several white papers regarding the application of Deep Learning 
 
 ## Paper notes - Transformer
 - NMT Attention: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) [[Notes](nmt_attention.md)] <kbd>ICLR 2015</kbd>
-- Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) [[Notes](local_attention.md)]<kbd>EMNLP 2015</kbd>
+- Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) [[Notes](local_attention.md)] <kbd>EMNLP 2015</kbd>
