@@ -14,7 +14,7 @@ The paper is one further step over [Neural Machine Translation by Jointly Learni
 
 #### Technical details
 - The paper also compared a few alignment functions for input hidden Sj and output hidden Hj: 
-1. dot product of the two vectors
+1. dot product of the two vectors (a scaled version is used by transformer)
 2. general: Sj*Wa*Hj
 3. Concatenate: tanh(Wa*[Sj;Hj] (This is what Bahdanau et al. used)
 The conclusion is that dot works better for global attention and general works better for local attention. Local+general gives the best system.
