@@ -12,6 +12,7 @@ I have authored several white papers regarding the application of Deep Learning 
 - Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) [[Notes](local_attention.md)] <kbd>EMNLP 2015</kbd>
 - Transformer: [Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[Notes](transformer.md)] <kbd>NeurIPS 2017</kbd>
 - TransformerXL: [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860) [[Notes](transformerxl.md)] <kbd>ACL 2019</kbd>
+- BERT: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) [[Notes](bert.md)] <kbd>NAACL 2019</kbd>
 
 
 ## Paper notes - Document Classification
