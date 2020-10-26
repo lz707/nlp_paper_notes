@@ -14,6 +14,7 @@ I have authored several white papers regarding the application of Deep Learning 
 - TransformerXL: [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860) [[Notes](transformerxl.md)] <kbd>ACL 2019</kbd>
 - BERT: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) [[Notes](bert.md)] <kbd>NAACL 2019</kbd>
 - XLNet: [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237) [[Notes](xlnet.md)] <kbd>NeurIPS 2019</kbd>
+- RoBERTa:[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)[[Notes](roberta.md)]
 
 ## Paper notes - Document Classification
 - SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
