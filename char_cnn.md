@@ -18,4 +18,4 @@ This paper is very innovative and interesting in applying the models at characte
 
 
 #### Notes
-- Though there seems no clear winnder across all tasks, Character-level ConvNet is an effective method. It generated strong results in most experiments. The biggest contribution is that now we realized that we can use sub-word information to model language and therefore avoid the unknown words problem.
+- Though there seems no clear winner across all tasks, Character-level ConvNet is an effective method. It generated strong results in most experiments. The biggest contribution is that now we realized that we can use sub-word information to model language and therefore avoid the unknown words problem.
