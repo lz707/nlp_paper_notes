@@ -12,6 +12,7 @@ The method is a fast and strong baseline model for sentence classification.
 
 #### Technical details
 - Model structure:
+
 ![](https://www.researchgate.net/publication/332287010/figure/fig1/AS:745599720775681@1554776234492/Model-architecture-of-FastText-for-a-post-with-N-n-gram-features-x-1-x-N-The.png)
 
 #### Notes
