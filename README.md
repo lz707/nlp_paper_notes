@@ -22,3 +22,4 @@ I have authored several white papers regarding the application of Deep Learning 
 - Fasttext: [Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759) [[Notes](fasttext.md)] <kbd>EACL 2017</kbd>
 - Sentence CNN: [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882) [[Notes](cnn.md)] <kbd>EMNLP 2014</kbd>
 - Character CNN: [Character-level Convolutional Networks for Text Classification](https://arxiv.org/abs/1509.01626) [[Notes](char_cnn.md)] <kbd>NeurIPS 2015</kbd>
+- Wide Convolution: [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/abs/1404.2188) [[Notes](wide_cnn.md)] <kbd>ACL 2014</kbd>
