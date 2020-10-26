@@ -5,7 +5,10 @@ Written in 2019
 tl;dr: TransformerXL adds recurrence to plain vanilla Transformers, aiming to gain better long-term dependency beyond the fixed-length of the latter. 
 
 #### Overall impression
-Original Transformer (Vaswani. et al 2017) has a fixed length of 512 tokens. When Al-Rfou et al presented an architecture to use transformer for language modeling ![herehttps://arxiv.org/abs/1808.04444), they split the inputs in to segments of 512 tokens, and shifting the window by one each step for each prediction.
+Original Transformer (Vaswani. et al 2017) has a fixed length of 512 tokens. When Al-Rfou et al presented an architecture to use transformer for language modeling ![here](https://arxiv.org/abs/1808.04444), they split the inputs in to segments of 512 tokens, and shifting the window by one each step for each prediction.
+![](https://miro.medium.com/max/3200/0*xKYSYsJkLjAZAoSr)
+
+
 This paper provides a more efficient solution by fix the hidden states from previous segments and shift an entire segment. Subsequent work adopting this approach, such as XLNet, achieved SOTA performance in many tasks. 
 
 #### Key ideas
