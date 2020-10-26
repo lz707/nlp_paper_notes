@@ -13,7 +13,8 @@ The paper is quite innovative when the mainstream of NLP research was still impr
 ![]( https://i0.wp.com/blog.exxactcorp.com/wp-content/uploads/2019/05/1_blSbN23mOGMZ_DWvTAcO1w.png)
 
 #### Technical details
-- Attention calculation: Q, K, V
+- Attention calculation: Q, K, V.
+
   Intuitively, Q is what we want to study, V is the knowledge we have, and K is the key to look up that value. For example, if we want to calculate the attention for first input token, Q is calculated from the first input, while K and V are from other input tokens. Another example is that in Decoder, Q is from exsiting output, while K and V are from input.
 
   Technically, for each attention head, we have a matrix Wq, Wk, Wv. The matrices are learned, and they are shared across layers. Q, K, V are results of input embedding (or previous layer’s output) * Wq, Wk, Wv.  Attention = softmax(Q*K/sqrt(dk))*V.  sqrt(dk) is a scaling factor to keep the attention stable.
