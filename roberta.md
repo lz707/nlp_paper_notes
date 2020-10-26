@@ -20,4 +20,4 @@ RoBERTa removes the Next Sentence Prediction task from BERT’s pre-training and
 - Pretraining task: Masked LM only
 
 #### Notes
-Although not too many innovation in the model structure, RoBERTa outperformed both BERT (expected) and XLNet (nice surprise).   
+Although not too much innovation in the model structure, RoBERTa outperformed both BERT (expected) and XLNet (nice surprise).   
