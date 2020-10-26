@@ -16,9 +16,9 @@ The attention layer is a simple feed-forward neural network, to calculate the de
     Hidden state at time t: Ht = f(Xt, Ht-1), where f could be LSTM or other RNN
     Then from the sequence of hidden states, generate context vector C = q({H1, …, Ht}). Often C = Ht 
     Decoder is trained to predict the next word Yt from C and all the previously predicted words {Y1,…Yt-1}:
-    Prob(output word Yt) = Prob (Yt|{{Y1,…Yt-1}, C} = g(Yt-1, St, C), where g is output RNN with hidden state St. (Note: St depend on C    here)
+    Prob(output word Yt) = Prob (Yt|Y1,…Yt-1, C） = g(Yt-1, St, C), where g is output RNN with hidden state St. (Note: St depend on C   here)
 2.	With attention, change the fixed vector C to a distinct context vector Ct for each time
-    Decoder Prob(output word Yt) = Prob (Yt|{{Y1,…Yt-1}, X} = g(Yt-1, St, Ct). (Note: St depend on Ct here)
+    Decoder Prob(output word Yt) = Prob (Yt|Y1,…Yt-1, X） = g(Yt-1, St, Ct). (Note: St depend on Ct here)
     Attention weight is decided by:
     eij = a(Si-1, Hj), a is a feed-forward network, this is the how relevant output i and input j is
     then take a softmax over all input positions so that the weights adds up to 1
