@@ -28,6 +28,7 @@ The paper is quite innovative when the mainstream of NLP research was still impr
   3.  The model can learn this pattern, and generalize to longer sentences
   
   Using simple [0 , 1] does not meet #2. Using integer linearly (1, 2, 3…) does not meet #3, because if the model is asked to deal with a sequence longer than any training examples, it may not be able to understand because it has never seen it. The author chose a function with sin and cos of different frequencies. The positional encoding vector has the same dimention of token embedding. The first dimention is a cosine funcion with high frequency, the second dimention is a sine function with a slightly lower frequency, and so on. This function is easy for the model to learn. There are other design of the positional encoding functions as well.
+  
   Amirhossein Kazemnejad has a good [explanation](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)
 
 
