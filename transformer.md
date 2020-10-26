@@ -32,4 +32,4 @@ The paper is quite innovative when the mainstream of NLP research was still impr
 
 
 #### Notes
-- The encoder can be fully parallelized but the decoder can not because it still needs input from previous outputs. In later research, apprently researchers found that the encoder only is powerful enough, so some of the most famous models use only the encoder.
+- The encoder can be fully parallelized but the decoder can not because it still needs input from previous outputs. In later research, apparently researchers found that the encoder only is powerful enough, so some of the most famous models use only the encoder.
