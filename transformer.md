@@ -14,8 +14,9 @@ The paper is quite innovative when the mainstream of NLP research was still impr
 
 #### Technical details
 - Attention calculation: Q, K, V
+  Intuitively, Q is what we want to study, V is the knowledge we have, and K is the key to look up that value. For example, if we want to calculate the attention for first input token, Q is calculated from the first input, while K and V are from other input tokens. Another example is that in Decoder, Q is from exsiting output, while K and V are from input.
 
-  For each attention head, we have a matrix Wq, Wk, Wv. The matrices are learned, and they are shared across layers. Q, K, V are results of input embedding (or previous layer’s output) * Wq, Wk, Wv.  Attention = softmax(Q*K/sqrt(dk))*V.  sqrt(dk) is a scaling factor to keep the attention stable.
+  Technically, for each attention head, we have a matrix Wq, Wk, Wv. The matrices are learned, and they are shared across layers. Q, K, V are results of input embedding (or previous layer’s output) * Wq, Wk, Wv.  Attention = softmax(Q*K/sqrt(dk))*V.  sqrt(dk) is a scaling factor to keep the attention stable.
 
   Jay Alammar has an amazing [visualization](http://jalammar.github.io/illustrated-transformer/)
 
@@ -25,8 +26,8 @@ The paper is quite innovative when the mainstream of NLP research was still impr
   2. the difference between two time-steps is stationary
   3.  The model can learn this pattern, and generalize to longer sentences
   
-  Using simple [0 , 1] does not meet #2. Using integer linearly (1, 2, 3…) does not meet #3, because if the model is asked to deal with a sequence longer than any training examples, it may not be able to understand because it has never seen it. The author chose a function with sin and cos. 
-  Amirhossein Kazemnejad has a clear [explanation](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)
+  Using simple [0 , 1] does not meet #2. Using integer linearly (1, 2, 3…) does not meet #3, because if the model is asked to deal with a sequence longer than any training examples, it may not be able to understand because it has never seen it. The author chose a function with sin and cos of different frequencies. The positional encoding vector has the same dimention of token embedding. The first dimention is a cosine funcion with high frequency, the second dimention is a sine function with a slightly lower frequency, and so on. This function is easy for the model to learn. There are other design of the positional encoding functions as well.
+  Amirhossein Kazemnejad has a good [explanation](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)
 
 
 #### Notes
