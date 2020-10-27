@@ -7,7 +7,7 @@ I have authored several white papers regarding the application of Deep Learning 
 - [The next-generation alpha model: Introducing natural language processing](./NLP_white_paper_part1.pdf)
 - [The next-generation alpha model: seeding intelligence with the ground truth](./NLP_white_paper_part2.pdf)
 
-## Paper notes - Transformer
+## Transformer
 - NMT Attention: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) [[Notes](nmt_attention.md)] <kbd>ICLR 2015</kbd>
 - Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) [[Notes](local_attention.md)] <kbd>EMNLP 2015</kbd>
 - Transformer: [Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[Notes](transformer.md)] <kbd>NeurIPS 2017</kbd>
@@ -17,9 +17,34 @@ I have authored several white papers regarding the application of Deep Learning 
 - RoBERTa: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)[[Notes](roberta.md)]
 - ALBERT: [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)[[Notes](albert.md)]
 
-## Paper notes - Document Classification
+## Document Classification
 - SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
 - Fasttext: [Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759) [[Notes](fasttext.md)] <kbd>EACL 2017</kbd>
 - Sentence CNN: [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882) [[Notes](cnn.md)] <kbd>EMNLP 2014</kbd>
 - Character CNN: [Character-level Convolutional Networks for Text Classification](https://arxiv.org/abs/1509.01626) [[Notes](char_cnn.md)] <kbd>NeurIPS 2015</kbd>
 - Wide Convolution: [A Convolutional Neural Network for Modelling Sentences](https://arxiv.org/abs/1404.2188) [[Notes](wide_cnn.md)] <kbd>ACL 2014</kbd>
+
+
+## Sequence to Sequence
+- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+
+
+## Question Answering/Reading Comprehension
+- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+
+
+## Generative
+- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+
+
+## Information Extraction
+- Relation Extraction using noisy data: [Neural Relation Extraction with Selective Attention over Instances](https://www.aclweb.org/anthology/P16-1200.pdf) [[Notes](noisy_re.md)] <kbd>ACL 2016</kbd>
+
+
+## Knowledge Graph
+- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+
+
+## Practical Tricks
+- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+
