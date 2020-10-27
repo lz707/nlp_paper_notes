@@ -16,6 +16,7 @@ I have authored several white papers regarding the application of Deep Learning 
 - XLNet: [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237) [[Notes](xlnet.md)] <kbd>NeurIPS 2019</kbd>
 - RoBERTa: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)[[Notes](roberta.md)]
 - ALBERT: [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)[[Notes](albert.md)]
+- ELECTRA: [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://openreview.net/forum?id=r1xMH1BtvB)[[Notes](electra.md)] <kbd>ICLR 2020</kbd>
 
 ## Document Classification
 - SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
@@ -26,25 +27,29 @@ I have authored several white papers regarding the application of Deep Learning 
 
 
 ## Sequence to Sequence
+- LSTM: [Sequence to Sequence Learning with Neural Networks](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) [[Notes](lstm.md)] <kbd>NeurIPS 2014</kbd>
+- CNN: [Convolutional Sequence to Sequence Learning](https://arxiv.org/abs/1705.03122) [[Notes](cnn.md)] <kbd>ICML 2017</kbd>
 - Back-translation: [Phrase-based & neural unsupervised machine translation](https://arxiv.org/abs/1804.07755) [[Notes](back_translation.md)] <kbd>EMNLP 2018</kbd>
+- Google MT: [Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/abs/1609.08144) [[Notes](googlemt.md)] 
 
 
 ## Question Answering/Reading Comprehension
-- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
-
+- QANet: [QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension](https://arxiv.org/abs/1804.09541) [[Notes](qanet.md)] <kbd>ICLR 2018</kbd>
+- Bi-Attention: [Bidirectional Attention Flow for Machine Comprehension](https://arxiv.org/abs/1611.01603) [[Notes](bi_attention.md)] <kbd>ICLR 2017</kbd>
 
 ## Generative
-- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
-
+- GAN: [Adversarial Learning for Neural Dialogue Generation](https://arxiv.org/abs/1701.06547) [[Notes](gan.md)] <kbd>ACL 2017</kbd>
+- SeqGAN: [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](https://arxiv.org/abs/1609.05473) [[Notes](seqgan.md)] <kbd>AAAI 2017</kbd>
 
 ## Information Extraction
 - Relation Extraction using noisy data: [Neural Relation Extraction with Selective Attention over Instances](https://www.aclweb.org/anthology/P16-1200.pdf) [[Notes](noisy_re.md)] <kbd>ACL 2016</kbd>
+- LSTM-CNNs-CRF: [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/abs/1603.01354) [[Notes](lstm_cnns_crf.md)] <kbd>ACL 2016</kbd>
 
 
 ## Knowledge Graph
-- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+- GCN: [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) [[Notes](gcn.md)] <kbd>ICLR 2017</kbd>
 
 
 ## Practical Tricks
-- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+- UDA: [Unsupervised Data Augmentation for Consistency Training](https://arxiv.org/abs/1904.12848) [[Notes](uda.md)]
 
