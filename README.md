@@ -26,7 +26,7 @@ I have authored several white papers regarding the application of Deep Learning 
 
 
 ## Sequence to Sequence
-- SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
+- Back-translation: [Phrase-based & neural unsupervised machine translation](https://arxiv.org/abs/1804.07755) [[Notes](back_translation.md)] <kbd>EMNLP 2018</kbd>
 
 
 ## Question Answering/Reading Comprehension
