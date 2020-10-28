@@ -35,7 +35,7 @@ I have authored several white papers regarding the application of Deep Learning 
 
 ## Question Answering/Reading Comprehension
 - QANet: [QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension](https://arxiv.org/abs/1804.09541) [[Notes](qanet.md)] <kbd>ICLR 2018</kbd>
-- Bi-Attention: [Bidirectional Attention Flow for Machine Comprehension](https://arxiv.org/abs/1611.01603) [[Notes](bi_attention.md)] <kbd>ICLR 2017</kbd>
+- BiDAF: [Bidirectional Attention Flow for Machine Comprehension](https://arxiv.org/abs/1611.01603) [[Notes](bidaf.md)] <kbd>ICLR 2017</kbd>
 
 ## Generative
 - GAN: [Adversarial Learning for Neural Dialogue Generation](https://arxiv.org/abs/1701.06547) [[Notes](gan.md)] <kbd>ACL 2017</kbd>
