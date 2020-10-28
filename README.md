@@ -2,7 +2,7 @@
 Notes taken while reading NLP papers
 
 ## White papers
-I have authored several white papers regarding the application of Deep Learning and Natual Language Processing (NLP) in quantitative investment and finance. See them [here](white_papers/README.md).
+I have authored several white papers regarding the application of Deep Learning and Natual Language Processing (NLP) in quantitative investment and finance. See them [here](white_papers).
 
 
 ## Transformer
