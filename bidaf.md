@@ -26,4 +26,4 @@ Machine comprehension (MC), answering a query about a given context paragraph, r
 ![]( https://miro.medium.com/max/1200/0*zp66pJbgc8w-bmAb.png)
 
 #### Notes
-BiDAF is a rather complex yet effective model in MC. 
+BiDAF is a rather complex yet effective model in MC, until self-attention is invented.
