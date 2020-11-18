@@ -16,7 +16,7 @@ ELECTRA purposed a different way to pretrain, in order to solve the two problems
 2.	Use a small MLM model as generator, and predict the original tokens for all masked tokens.
 3.	Replace [MASK] with the predicted token, and ask the discriminator predicts whether it is an original or whether it has been replaced by the generator.
 
-# [](https://miro.medium.com/max/1250/1*B5Bb8wvGSYCyIHwQQfs-lA.png)
+![](https://miro.medium.com/max/1250/1*B5Bb8wvGSYCyIHwQQfs-lA.png)
 
 The discriminator loss is calculated over the whole input sequence as it has to identify for EACH token that if it has been replaced. On the contrary, MLM only calculate loss on the masked tokens. This is the key difference where ELECTRA gains more efficiency over BERT.
 The generator here is not trained to deceive the discriminator, which is one difference from GAN.
