@@ -30,3 +30,4 @@ The attention layer is a simple feed-forward neural network, to calculate the de
 #### Notes
 - A future work is [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf), which published about a year later and provided both global and local version of attention. See here for detailed review and comparison. 
 - There are also other form of the attention weights that has been adopted by later work
+- The attention mechanism still is applied on a RNN structure, which can still be a bottleneck. Self-attention later addressed this by calculating attention only.
