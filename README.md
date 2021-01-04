@@ -5,7 +5,7 @@ Notes taken while reading NLP papers
 I have authored several white papers regarding the application of Deep Learning and Natual Language Processing (NLP) in quantitative investment and finance. See them [here](white_papers).
 
 
-## Transformer
+## Transformers and Pretrained Models
 - NMT Attention: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) [[Notes](nmt_attention.md)] <kbd>ICLR 2015</kbd>
 - Local Attention: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) [[Notes](local_attention.md)] <kbd>EMNLP 2015</kbd>
 - Transformer: [Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[Notes](transformer.md)] <kbd>NeurIPS 2017</kbd>
@@ -15,6 +15,10 @@ I have authored several white papers regarding the application of Deep Learning 
 - RoBERTa: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)[[Notes](roberta.md)]
 - ALBERT: [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)[[Notes](albert.md)]
 - ELECTRA: [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://openreview.net/forum?id=r1xMH1BtvB)[[Notes](electra.md)] <kbd>ICLR 2020</kbd>
+
+## Efficient Transformers
+- Longformer: [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)[[Notes](longformer.md)]
+
 
 ## Document Classification
 - SIF: [A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/forum?id=SyK00v5xx) [[Notes](sif.md)] <kbd>ICLR 2017</kbd>
