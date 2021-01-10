@@ -9,7 +9,7 @@ Among recent attempts to reduce vanilla Transformer’s quadratic complexity, Lo
 
 I personally believe that there is indeed redundancy in vanilla Transformer’s calculation. As shown by Transformer-XL([Dai et al., 2019]( https://arxiv.org/abs/1901.02860)) ([my notes]( https://github.com/lz707/nlp_paper_notes/blob/master/transformerxl.md)), when layers are stacked, tokens are able to indirectly recover from other tokens the information it did not see directly at previous layers. Therefore, I think theoretically this direction should work. However, according to Google’s benchmark([Tay et al., 2020]( https://arxiv.org/abs/2011.04006)), none of these models consistently outperform original Transformer, though they are not far behind. Thus, it is more of a trade-off between a much longer max sequence length vs. a few points of performance loss.
 
-Among all the papers in this group, Longformer’s approach is simple yet effective. 
+Among all the papers in this group, Longformer’s approach is simple yet effective. The memory complexity is O(n).
 
 #### Key ideas & Technical details
 The authors added inductive bias to the original Transformer, limiting most token’s attention to a fixed local window, with only a few special tokens attends to everyone else. The local attention is in charge of modeling contextual representations, while the global attention is in charge of full-sequence information for predictions. 
