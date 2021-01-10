@@ -12,8 +12,10 @@ I personally believe that there is indeed redundancy in vanilla Transformer’s 
 All of the papers in this group has a certain level of overlap. BigBird is essentially longformer + random attention. 
 
 #### Key ideas & Technical details
-The authors added inductive bias to the original Transformer, limiting most token’s attention to a fixed local window +  a few special tokens attends globally + random attention. 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsyncedreview.com%2F2020%2F08%2F03%2Fgoogle-bigbird-achieves-sota-performance-on-long-context-nlp-tasks%2F&psig=AOvVaw0RoXhPU4Naqut4krA7wwZe&ust=1610396288610000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDLleqXku4CFQAAAAAdAAAAABAI)
+The authors added inductive bias to the original Transformer, limiting most token’s attention to a fixed local window +  a few special tokens attends globally + random attention. Random attention is a sparse attention were each query attends over r random number of keys.  
+
+![](https://i2.wp.com/syncedreview.com/wp-content/uploads/2020/08/image-1.png)
+
 #### Notes
 
 In Google’s benchmark, BigBird has the most consistent performance comparable to vanilla Transformer across all tasks. Though the speed is also similar to vanilla Transformer, this does extends the sequence length longer while keeping the performance almost intact.  
