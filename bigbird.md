@@ -12,7 +12,7 @@ I personally believe that there is indeed redundancy in vanilla Transformer’s 
 All of the papers in this group has a certain level of overlap. BigBird is essentially longformer + random attention. 
 
 #### Key ideas & Technical details
-The authors added inductive bias to the original Transformer, limiting most token’s attention to a fixed local window +  a few special tokens attends globally + random attention. Random attention is a sparse attention were each query attends over r random number of keys.  
+The authors added inductive bias to the original Transformer, limiting most token’s attention to a fixed local window +  a few special tokens attends globally + random attention. Random attention is a sparse attention were each query attends over r random number of keys. Interestingly, this pattern is fixed once r is decided. The authors did not provide more theoretical support on the design. 
 
 ![](https://i2.wp.com/syncedreview.com/wp-content/uploads/2020/08/image-1.png)
 
