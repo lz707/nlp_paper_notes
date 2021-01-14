@@ -19,6 +19,7 @@ I have authored several white papers regarding the application of Deep Learning 
 ## Efficient Transformers
 - Longformer: [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)[[Notes](longformer.md)]
 - BigBird: [Big Bird: Transformers for Longer Sequences]( https://arxiv.org/abs/2007.14062)[[Notes](bigbird.md)]
+- Sparse Transformers: [Generating Long Sequences with Sparse Transformers]( https://arxiv.org/abs/1904.10509)[[Notes](sparse_transformer.md)]
 
 
 ## Document Classification
