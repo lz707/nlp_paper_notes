@@ -4,6 +4,8 @@ Notes taken while reading NLP papers
 ## White papers
 I have authored several white papers regarding the application of Deep Learning and Natual Language Processing (NLP) in quantitative investment and finance. See them [here](white_papers).
 
+## Large Language Models
+- Toolformer: [Toolformer: Language Models Can Teach Themselves to Use Tools]( https://arxiv.org/abs/2302.04761) [[Notes](toolformer.md)] <kbd>Meta 2023</kbd>
 
 ## Transformers and Pretrained Models
 - NMT Attention: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) [[Notes](nmt_attention.md)] <kbd>ICLR 2015</kbd>
