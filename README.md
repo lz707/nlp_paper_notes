@@ -1,8 +1,11 @@
 # NLP Paper Notes
 Notes taken while reading NLP papers
 
-## White papers
+## White Papers and Blog Posts
 I have authored several white papers regarding the application of Deep Learning and Natual Language Processing (NLP) in quantitative investment and finance. See them [here](white_papers).
+Blog posts:
+The Evolution of NLP: Part I - From Bag of Words to Transformer (https://zhuanlan.zhihu.com/p/631079588)
+The Evolution of NLP: Part II - From BERT to ChatGPT (https://zhuanlan.zhihu.com/p/632841755)
 
 ## Large Language Models
 - Toolformer: [Toolformer: Language Models Can Teach Themselves to Use Tools]( https://arxiv.org/abs/2302.04761) [[Notes](toolformer.md)] <kbd>Meta 2023</kbd>
